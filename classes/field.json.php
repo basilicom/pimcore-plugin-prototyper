@@ -1,0 +1,23 @@
+{
+    "fieldtype":"input",
+    "width":400,
+    "queryColumnType":"varchar",
+    "columnType":"varchar",
+    "columnLength":100,
+    "phpdocType":"string",
+    "regex":"",
+    "name":"<?=$fieldName?>",
+    "title":"<?=$fieldTitle?>",
+    "tooltip":"",
+    "mandatory":false,
+    "noteditable":false,
+    "index":false,
+    "locked":null,
+    "style":"",
+    "permissions":null,
+    "datatype":"data",
+    "relationType":false,
+    "invisible":false,
+    "visibleGridView":false,
+    "visibleSearch":false
+}

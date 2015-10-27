@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<zend-config xmlns:zf="http://framework.zend.com/xml/zend-config-xml/1.0/">
+		<plugin>
+
+            <!-- the plugin name [A-Za-z_] -->
+            <pluginName>Prototyper</pluginName>
+
+            <!-- a short description -->
+			<pluginDescription><![CDATA[Quickly create pimcore object classes with many fields from CSV data sets]]></pluginDescription>
+
+            <!-- meta data -->
+            <pluginVersion>1.0</pluginVersion>
+            <pluginRevision>1</pluginRevision>
+            <pluginBuildTimestamp>0</pluginBuildTimestamp>
+
+            <!-- put in the URL for the plugin configuration eg. /plugin/Prototyper/admin/index -->
+            <pluginIframeSrc>/plugin/Prototyper/admin/index</pluginIframeSrc>
+
+            <!-- className of the plugin which extends Pimcore_API_Plugin_Abstract-->
+			<pluginClassName>\Prototyper\Plugin</pluginClassName>
+
+            <!-- include paths relative to plugin-directory -->
+			<pluginIncludePaths>
+				<path>/Prototyper/lib</path>
+			</pluginIncludePaths>
+
+			<!-- namespaces to register with autoloader-->
+			<pluginNamespaces>
+				<namespace>Prototyper</namespace>
+			</pluginNamespaces>
+		</plugin>
+</zend-config>

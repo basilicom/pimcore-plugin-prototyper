@@ -1,0 +1,20 @@
+{
+    "name": "basilicom-pimcore-plugin/prototyper",
+    "description": "Quickly create pimcore object classes with many fields from CSV data sets",
+    "type": "pimcore-plugin",
+    "license": "BSD-3-Clause",
+    "keywords": ["pimcore","plugin","prototyping"],
+    "homepage": "http://basilicom.de/en/pimcore",
+    "authors": [
+        {
+            "name": "basilicom Team",
+            "email": "info@basilicom.de",
+            "homepage": "http://basilicom.de/",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "pimcore/installer-plugin": "~1.3"
+    }
+}
